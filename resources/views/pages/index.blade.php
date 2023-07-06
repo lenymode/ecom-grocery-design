@@ -3,56 +3,68 @@
     {{-- card-design  --}}
     <div class="hero-categories">
         <div class="container">
-            <div class="row flex">
-                <div class="col-md-2">
+            <div class="row g-2 flex">
+                <div class="col-md-2 col-lg-2">
+                  <a class="card-ancor" href="">
                     <div class="card">
-                        <img src="{{ asset('assets/img/icon/chili.png') }}" class="card-img-top" alt="Category 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Chili</h5>
-                        </div>
-                    </div>
+                      <img src="{{ asset('assets/img/icon/corn.png') }}" class="card-img-top" alt="Category 2">
+                      <div class="card-body">
+                          <h5 class="card-title">Corn</h5>
+                      </div>
+                  </div>
+                  </a>
                 </div>
                 <div class="col-md-2">
+                  <a class="card-ancor" href="">
                     <div class="card">
-                        <img src="{{ asset('assets/img/icon/corn.png') }}" class="card-img-top" alt="Category 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Corn</h5>
-                        </div>
-                    </div>
+                      <img src="{{ asset('assets/img/icon/chili.png') }}" class="card-img-top" alt="Category 2">
+                      <div class="card-body">
+                          <h5 class="card-title">Corn</h5>
+                      </div>
+                  </div>
+                  </a>
                 </div>
                 <div class="col-md-2">
+                  <a class="card-ancor" href="">
                     <div class="card">
-                        <img src="{{ asset('assets/img/icon/tomato.png') }}" class="card-img-top" alt="Category 3"
-                            height="80px" width="100%">
-                        <div class="card-body">
-                            <h5 class="card-title">Capcicam</h5>
-                        </div>
-                    </div>
-                </div>
+                      <img src="{{ asset('assets/img/icon/tomato.png') }}" class="card-img-top" alt="Category 3"
+                          height="80px" width="100%">
+                      <div class="card-body">
+                          <h5 class="card-title">Capcicam</h5>
+                      </div>
+                   </div>
+                 </div>
+                  </a>
+
                 <div class="col-md-2">
-                    <div class="card">
+                    <a class="card-ancor" href="">
+                      <div class="card">
                         <img src="{{ asset('assets/img/icon/cucumber-slice.png') }}" class="card-img-top" alt="Category 3">
                         <div class="card-body">
                             <h5 class="card-title">Cucumber</h5>
                         </div>
-
                     </div>
+                    </a>
                 </div>
                 <div class="col-md-2">
+                  <a class="card-ancor" href="">
                     <div class="card">
-                        <img src="{{ asset('assets/img/icon/carrots.png') }}" class="card-img-top" alt="Category 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Carrots</h5>
-                        </div>
-                    </div>
+                      <img src="{{ asset('assets/img/icon/carrots.png') }}" class="card-img-top" alt="Category 3">
+                      <div class="card-body">
+                          <h5 class="card-title">Carrots</h5>
+                      </div>
+                  </div>
+                  </a>
                 </div>
                 <div class="col-md-2">
+                  <a class="card-ancor" href="">
                     <div class="card">
-                        <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" class="card-img-top" alt="Category 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Capcicam</h5>
-                        </div>
-                    </div>
+                      <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" class="card-img-top" alt="Category 3">
+                      <div class="card-body">
+                          <h5 class="card-title">Capcicam</h5>
+                      </div>
+                  </div>
+                  </a>
                 </div>
             </div>
         </div>
@@ -71,168 +83,70 @@
             </div>
             <div class="row">
                 <!-- Grocery Card 1 -->
-                <!-- Grocery Card 5 -->
                 <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <a style="text-decoration: none" href="#">
+                    <div class="zoom-effect">
+                      <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                    </div>
+                  </a>
                   <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <!-- Grocery Card 5 -->
-                <div class="groceries-card">
-                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                  <div class="groceries-details">
-                    <p class="groceries-price">$9.99</p>
+                    <span class="groceries-price">$9.99 <del>$12.99</del></span>
                     <h2 class="groceries-title">Grocery Item 5</h2>
                   </div>
                   <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
                 </div>
 
-                <!-- Add more Grocery Cards here -->
+                <div class="groceries-card">
+                  <a style="text-decoration: none" href="#">
+                    <div class="zoom-effect">
+                      <img src="{{ asset('assets/img/icon/chili.png') }}" alt="Grocery Item 5">
+                    </div>
+                  </a>
+                  <div class="groceries-details">
+                    <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+
+                <div class="groceries-card">
+                  <a style="text-decoration: none" href="#">
+                    <div class="zoom-effect">
+                      <img src="{{ asset('assets/img/icon/chili.png') }}" alt="Grocery Item 5">
+                    </div>
+                  </a>
+                  <div class="groceries-details">
+                    <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+
+                <div class="groceries-card">
+                  <a style="text-decoration: none" href="#">
+                    <div class="zoom-effect">
+                      <img src="{{ asset('assets/img/icon/carrots.png') }}" alt="Grocery Item 5">
+                    </div>
+                  </a>
+                  <div class="groceries-details">
+                    <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <div class="groceries-card">
+                  <a style="text-decoration: none" href="#">
+                    <div class="zoom-effect">
+                      <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                    </div>
+                  </a>
+                  <div class="groceries-details">
+                    <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+
             </div>
         </div>
 
@@ -248,14 +162,16 @@
             margin-bottom: 117px;
             border: none;
             border-radius: 10px;
-            height: 210px;
-            width: 195px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
             transition: transform 0.3s;
         }
 
         .card:hover {
             transform: translateY(-5px);
+        }
+
+        .card-ancor:hover {
+          text-decoration: none;
         }
 
         .card-img-top {
@@ -268,7 +184,9 @@
         }
 
         .card-body {
+            margin-top: 15px;
             text-align: center;
+            padding:0;
         }
 
         .card-title {
@@ -276,6 +194,8 @@
             font-weight: bold;
             border-top: solid 2px #f3f3f3;
             font-size: 16px;
+            color: black;
+            text-decoration: none;
         }
 
         .card-text {
@@ -283,13 +203,13 @@
             margin-bottom: 20px;
         }
 
-        .btn-primary {
+        .card-body .btn-primary {
             background-color: #007bff;
             border-color: #007bff;
             transition: background-color 0.3s;
         }
 
-        .btn-primary:hover {
+        .card-body .btn-primary:hover {
             background-color: #0056b3;
             border-color: #0056b3;
         }
@@ -343,6 +263,13 @@
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 45px;
+    object-fit: cover;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.groceries-card img:hover {
+  transform: scale(1.1);
 }
 
 .groceries-details {
@@ -361,10 +288,14 @@
 }
 
 .groceries-price {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     color: #000000;
     margin-bottom: 5px;
+}
+.groceries-price del {
+  font-size: 12px;
+  color:grey;
 }
 
 .groceries-card .btn {
