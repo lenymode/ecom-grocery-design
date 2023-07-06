@@ -71,59 +71,157 @@
             </div>
             <div class="row">
                 <!-- Grocery Card 1 -->
-                <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 1">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                </div>
-
-                <!-- Grocery Card 2 -->
-                <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 2">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                </div>
-
-                <!-- Grocery Card 3 -->
-                <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 3">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                </div>
-
-                <!-- Grocery Card 4 -->
-                <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 4">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                </div>
-
                 <!-- Grocery Card 5 -->
                 <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
                 </div>
-
-                <!-- Grocery Card 1 -->
+                <!-- Grocery Card 5 -->
                 <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 1">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
                 </div>
-
-                <!-- Grocery Card 2 -->
+                <!-- Grocery Card 5 -->
                 <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 2">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
                 </div>
-
-                <!-- Grocery Card 3 -->
+                <!-- Grocery Card 5 -->
                 <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 3">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
                 </div>
-
-                <!-- Grocery Card 4 -->
+                <!-- Grocery Card 5 -->
                 <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 4">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
                 </div>
-
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
+                <!-- Grocery Card 5 -->
+                <div class="groceries-card">
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                </div>
                 <!-- Grocery Card 5 -->
                 <div class="groceries-card">
                   <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
@@ -236,15 +334,15 @@
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin-bottom: 20px;
   position: relative;
 }
 
 .groceries-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 45px;
 }
 
 .groceries-details {
@@ -273,7 +371,7 @@
   display: inline-block;
   background-color: #04b39e;
   color: #fff;
-  padding: 5px 75px;
+  padding: 5px 70px;
   border-radius: 3px;
   text-decoration: none;
   transition: background-color 0.3s ease;
@@ -286,10 +384,9 @@
   border: solid 1px #06a693;
   margin-bottom: 5px;
 }
-.groceries-card .plus {
+.groceries-card a i {
   font-size: 14px;
 }
-
 
     </style>
 @endsection
