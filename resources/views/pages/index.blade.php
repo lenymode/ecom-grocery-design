@@ -19,7 +19,7 @@
                     <div class="card">
                       <img src="{{ asset('assets/img/icon/chili.png') }}" class="card-img-top" alt="Category 2">
                       <div class="card-body">
-                          <h5 class="card-title">Corn</h5>
+                          <h5 class="card-title">Chili</h5>
                       </div>
                   </div>
                   </a>
@@ -149,9 +149,37 @@
 
             </div>
         </div>
-
     </section>
 
+{{-- ad-banner-section-starts-here --}}
+
+<section class="ad-section">
+  <div class="container">
+    <div class="ad-banner">
+      <img src="{{asset('assets/img/ad/banner-8.webp')}}" alt="Ad Banner 1">
+    </div>
+    <div class="ad-banner">
+      <img src="{{asset('assets/img/ad/banner-9.webp')}}" alt="Ad Banner 2">
+    </div>
+  </div>
+</section>
+
+{{-- offer-section  --}}
+
+<section class="offer-section">
+  <div class="container">
+    <div class="col-md-12">
+      <div class="row grid">
+        <div class="col-md-8">
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -262,7 +290,7 @@
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
-    padding: 45px;
+    padding: 55px;
     object-fit: cover;
   transform: scale(1);
   transition: transform 0.3s ease;
@@ -299,20 +327,21 @@
 }
 
 .groceries-card .btn {
-  display: inline-block;
-  background-color: #04b39e;
-  color: #fff;
-  padding: 5px 70px;
-  border-radius: 3px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  border: solid 1px #06a693;
-  margin-bottom: 5px;
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #474747;
+    padding: 5px 70px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: solid 1px #e9e9e9;
+    margin-bottom: 5px;
+    font-weight: 400;
 }
 
 .groceries-card .btn:hover {
-  background-color: #06c1ab;
-  border: solid 1px #06a693;
+  bbackground-color: #a33030 !important;
+  border: solid 1px #e9e9e9;
   margin-bottom: 5px;
 }
 .groceries-card a i {
@@ -320,4 +349,32 @@
 }
 
     </style>
+
+<style>
+  .ad-section {
+    margin-top: 20px;
+    margin-bottom: 69px;
+}
+ .ad-section .container {
+  max-width: 1435px !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+  .ad-banner {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.ad-banner:last-child {
+  margin-right: 0;
+}
+
+.ad-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+</style>
 @endsection
