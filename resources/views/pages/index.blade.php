@@ -126,8 +126,12 @@
 
                 <!-- Grocery Card 5 -->
                 <div class="groceries-card">
-                    <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                  <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                  <div class="groceries-details">
+                    <p class="groceries-price">$9.99</p>
+                    <h2 class="groceries-title">Grocery Item 5</h2>
+                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
                 </div>
 
                 <!-- Add more Grocery Cards here -->
@@ -198,71 +202,94 @@
         /* Custom styles for the groceries section */
         /* Custom styles for the groceries section */
         /* Custom styles for the groceries section */
-        .groceries-section {
-            padding: 50px 0;
-            background-color: #ffffff;
-        }
+       /* Custom styles for the groceries section */
+.groceries-section {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
 
-        .container {
-            max-width: 1435px !important;
-            margin: 0 auto !important;
-        }
+.container {
+  max-width: 1435px !important;
+  margin: 0 auto !important;
+}
 
-        .title-wrapper {
-            text-align: center;
-            margin-bottom: 40px;
-        }
+.title-wrapper {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-        .title-wrapper h2 {
-            font-size: 28px;
-            color: #333333;
-        }
+.title-wrapper h2 {
+  font-size: 28px;
+  color: #333333;
+}
 
-        .groceries-section .row {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            /* Display 5 cards in a row */
-            grid-gap: 20px;
-        }
+.groceries-section .row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* Display 5 cards in a row */
+  grid-gap: 20px;
+}
 
-        .groceries-card {
-            background-color: #fff;
-            border-radius: 4px;
-            padding: 20px;
-            border: solid 1px #ebebeb;
-            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-            text-align: center;
-            margin-bottom: 20px;
-        }
+.groceries-card {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
 
-        .groceries-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-bottom: 10px;
-        }
+.groceries-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 
-        .groceries-card h3 {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
+.groceries-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 10px;
+}
 
-        .groceries-card p {
-            margin-bottom: 20px;
-        }
+.groceries-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
 
-        .btn {
-            display: inline-block;
-            background-color: #007bff;
-            color: #fff;
-            padding: 8px 16px;
-            border-radius: 4px;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-        }
+.groceries-price {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 5px;
+}
 
-        .btn:hover {
-            background-color: #0056b3;
-        }
+.groceries-card .btn {
+  display: inline-block;
+  background-color: #04b39e;
+  color: #fff;
+  padding: 5px 75px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: solid 1px #06a693;
+  margin-bottom: 5px;
+}
+
+.groceries-card .btn:hover {
+  background-color: #06c1ab;
+  border: solid 1px #06a693;
+  margin-bottom: 5px;
+}
+.groceries-card .plus {
+  font-size: 14px;
+}
+
+
     </style>
 @endsection
