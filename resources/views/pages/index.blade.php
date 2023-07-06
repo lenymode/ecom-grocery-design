@@ -4,7 +4,7 @@
 {{-- card-design  --}}
 <div class="hero-categories">
     <div class="container">
-        <div class="row">
+        <div class="row flex">
           <div class="col-md-2">
             <div class="card">
               <img src="{{asset('assets/img/icon/chili.png')}}" class="card-img-top" alt="Category 1">
@@ -59,6 +59,66 @@
 </div>
 
 
+{{-- grocery-section-starts-here  --}}
+
+<section class="groceries-section">
+  <div class="container">
+    <div class="row">
+      <!-- Grocery Card 1 -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="groceries-card">
+          <h3>Grocery Item 1</h3>
+          <p>Description of grocery item 1</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+
+      <!-- Grocery Card 2 -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="groceries-card">
+          <h3>Grocery Item 2</h3>
+          <p>Description of grocery item 2</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <!-- Grocery Card 3 -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="groceries-card">
+          <h3>Grocery Item 3</h3>
+          <p>Description of grocery item 3</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <!-- Grocery Card 4 -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="groceries-card">
+          <h3>Grocery Item 4</h3>
+          <p>Description of grocery item 4</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <!-- Grocery Card 5 -->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="groceries-card">
+          <h3>Grocery Item 5</h3>
+          <p>Description of grocery item 5</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+
+
+      <!-- Grocery Card 2 -->
+
+  </div>
+</section>
+
+
+
   <style>
     .card {
         top: 20px;
@@ -105,5 +165,25 @@
       border-color: #0056b3;
     }
   </style>
+
+<style>
+  /* Custom styles for the groceries section */
+  .groceries-section {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+
+  .groceries-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+</style>
+
+
+
 
 @endsection
