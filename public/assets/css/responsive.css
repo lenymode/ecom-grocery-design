@@ -15,23 +15,9 @@
     }
     .groceries-section .row  {
         display: grid !important;
-        grid-template-columns: repeat(1, 1fr) !important;
-        grid-gap: 20px !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 1px !important;
     }
-    .hero-categories .col-md-2 {
-        flex-basis: 50%; /* Show 2 cards on small devices */
-        margin-bottom: -90px;
-      }
-      .groceries-section {
-        padding: 50px 0;
-        background-color: #ffffff;
-        margin-top: 65px;
-      }
-      .groceries-section .row {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
-      }
       .carousel-caption > h3 {
         font-size: 11px !important;
       }
@@ -43,6 +29,7 @@
       .groceries-card{
         margin-left: 8px;
         margin-right: 8px;
+        margin-bottom: 15px;
       }
       .groceries-card img {
         height: auto !important;
@@ -50,6 +37,18 @@
     .ad-banner img {
 
         margin-bottom: 15px;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .menu_open .mobile_menu_content {
+        display: block;
+    }
+
+    .header_search {
+        display: none;
     }
 
 }
@@ -97,6 +96,17 @@
       }
       .groceries-card img {
         height: 200px !important;
+    }
+    .mobile_menu {
+        display: block;
+    }
+
+    .menu_open .mobile_menu_content {
+        display: block;
+    }
+
+    .header_search {
+        display: none;
     }
   }
 
