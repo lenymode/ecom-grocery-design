@@ -2,29 +2,29 @@
 
   <!-- Indicators -->
   <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#button" data-slide-to="0" class="active"></li>
+    <li data-target="#button" data-slide-to="1"></li>
+    <li data-target="#button" data-slide-to="2"></li>
   </ul>
 
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('assets/img/banner/antique-banner-img.png')}}" alt="Los Angeles" width="1100" height="200">
+      <img src="{{asset('assets/img/banner/antique-banner-img.png')}}" alt="Los Angeles" class="d-block w-100">
       <div class="carousel-caption">
         <h3>OK Groceries</h3>
         <p>Your E-commerce Solution is here</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{asset('assets/img/banner/antique-banner-img.png')}}" alt="Chicago" width="1100" height="500">
+      <img src="{{asset('assets/img/banner/antique-banner-img.png')}}" alt="Chicago" class="d-block w-100">
       <div class="carousel-caption">
         <h3>Good Groceries</h3>
         <p>Your E-commerce Solution is here</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{asset('assets/img/banner/antique-banner-img.png')}}" alt="New York" width="1100" height="500">
+      <img src="{{asset('assets/img/banner/antique-banner-img.png')}}" alt="New York" class="d-block w-100">
       <div class="carousel-caption">
         <h3>NexKraft Groceries</h3>
         <p>Your E-commerce Solution is here</p>
@@ -41,6 +41,7 @@
   </a>
 </div>
 
+
 <style>
 .carousel-inner img {
   width: 100%;
@@ -56,7 +57,7 @@
   color: #fff;
 }
 .carousel-caption h3 {
-  font-size: 50px;
+  font-size: 40px;
   color: #71461a;
 }
 .carousel-caption p {

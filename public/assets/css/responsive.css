@@ -1,38 +1,109 @@
-/* Styles for medium screens */
-@media (max-width: 768px) {
-    .container {
-        padding: 0 20px;
+/* Styles for all screen sizes */
+
+
+  /* Styles for screen sizes 600px and below */
+  /* Styles for screen sizes up to 600px (small devices) */
+@media (max-width: 600px) {
+    .hero-categories .col-md-2 {
+      flex-basis: 50%; /* Show 2 cards on small devices */
+      margin-bottom: -90px;
+    }
+    .groceries-section {
+        padding: 50px 0;
+        background-color: #ffffff;
+        margin-top: 65px;
+    }
+    .groceries-section .row  {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-gap: 20px !important;
+    }
+    .hero-categories .col-md-2 {
+        flex-basis: 50%; /* Show 2 cards on small devices */
+        margin-bottom: -90px;
+      }
+      .groceries-section {
+        padding: 50px 0;
+        background-color: #ffffff;
+        margin-top: 65px;
+      }
+      .groceries-section .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+      }
+      .carousel-caption > h3 {
+        font-size: 11px !important;
+      }
+      .carousel-caption > p {
+            font-size: 8px !important;
+            /* Adjust other styles as needed for smaller screens */
+        }
+
+      .groceries-card{
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      .groceries-card img {
+        height: auto !important;
+    }
+    .ad-banner img {
+
+        margin-bottom: 15px;
     }
 
-    .groceries-card {
-        max-width: 100%;
-    }
 }
 
-/* Styles for smaller screens */
-@media (max-width: 576px) {
-    .title-wrapper h2 {
-        font-size: 24px;
-    }
 
-    .title-wrapper p {
-        font-size: 14px;
-    }
 
-    .groceries-card {
-        margin: 10px 0;
-    }
 
-    .button {
-        margin-top: 10px;
-    }
-}
-/* Styles for larger screens */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.row.g-2.flex > div[class^="col-"] {
-    flex-basis: 16.66667%;
-}
+  /* Styles for screen sizes between 601px and 1024px (medium devices) */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .hero-categories .col-md-2 {
+      flex-basis: 33.33%; /* Show 3 cards on medium devices */
+      margin-bottom: -90px;
+    }
+    .groceries-section .row  {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 20px !important;
+    }
+    .hero-categories .col-md-2 {
+        flex-basis: 50%; /* Show 2 cards on small devices */
+        margin-bottom: -90px;
+      }
+      .groceries-section {
+        padding: 50px 0;
+        background-color: #ffffff;
+        margin-top: 65px;
+      }
+      .groceries-section .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+      }
+      .carousel-caption > h3 {
+        font-size: 11px !important;
+      }
+      .carousel-caption > p {
+            font-size: 8px !important;
+            /* Adjust other styles as needed for smaller screens */
+        }
+
+      .groceries-card{
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      .groceries-card img {
+        height: 200px !important;
+    }
+  }
+
+  /* Styles for screen sizes 1025px and above (large devices) */
+  @media (min-width: 1025px) {
+    .hero-categories .col-md-2 {
+      flex-basis: 100%; /* Show 5 cards on large devices */
+    }
+  }
+

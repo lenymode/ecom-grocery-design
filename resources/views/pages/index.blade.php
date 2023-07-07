@@ -156,6 +156,12 @@
                 </div>
 
             </div>
+
+            <div class="view-all">
+              <a href="#">
+                <h2>View All</h2>
+              </a>
+          </div>
         </div>
     </section>
 
@@ -163,14 +169,21 @@
 
 <section class="ad-section">
   <div class="container">
-    <div class="ad-banner">
-      <img src="{{asset('assets/img/ad/banner-8.webp')}}" alt="Ad Banner 1">
-    </div>
-    <div class="ad-banner">
-      <img src="{{asset('assets/img/ad/banner-9.webp')}}" alt="Ad Banner 2">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="ad-banner">
+          <img src="{{asset('assets/img/ad/banner-8.webp')}}" alt="Ad Banner 1" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="ad-banner">
+          <img src="{{asset('assets/img/ad/banner-9.webp')}}" alt="Ad Banner 2" class="img-fluid">
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
 
 {{-- offer-section  --}}
 
