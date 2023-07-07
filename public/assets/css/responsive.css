@@ -1,0 +1,38 @@
+/* Styles for medium screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .groceries-card {
+        max-width: 100%;
+    }
+}
+
+/* Styles for smaller screens */
+@media (max-width: 576px) {
+    .title-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .title-wrapper p {
+        font-size: 14px;
+    }
+
+    .groceries-card {
+        margin: 10px 0;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+}
+/* Styles for larger screens */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row.g-2.flex > div[class^="col-"] {
+    flex-basis: 16.66667%;
+}

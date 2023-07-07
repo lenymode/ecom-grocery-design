@@ -83,68 +83,76 @@
             </div>
             <div class="row">
                 <!-- Grocery Card 1 -->
+
                 <div class="groceries-card">
+                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
                   <a style="text-decoration: none" href="#">
                     <div class="zoom-effect">
-                      <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
+                      <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Grocery Item 5">
                     </div>
                   </a>
                   <div class="groceries-details">
                     <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
+                    <a href="#"><h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2></a>
                   </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                  <a href="#" class="button btn  ">Add to Cart </a>
                 </div>
 
                 <div class="groceries-card">
+                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
                   <a style="text-decoration: none" href="#">
                     <div class="zoom-effect">
-                      <img src="{{ asset('assets/img/icon/chili.png') }}" alt="Grocery Item 5">
+                      <img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Grocery Item 5">
                     </div>
                   </a>
                   <div class="groceries-details">
                     <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
+                    <a href="#"><h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2></a>
                   </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                  <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
+
+
+                <div class="groceries-card">
+                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                  <a style="text-decoration: none" href="#">
+                    <div class="zoom-effect">
+                      <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Grocery Item 5">
+                    </div>
+                  </a>
+                  <div class="groceries-details">
+                    <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                    <a href="#"><h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2></a>
+                  </div>
+                  <a href="#" class="button btn  ">Add to Cart </a>
                 </div>
 
                 <div class="groceries-card">
+                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
                   <a style="text-decoration: none" href="#">
                     <div class="zoom-effect">
-                      <img src="{{ asset('assets/img/icon/chili.png') }}" alt="Grocery Item 5">
+                      <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Grocery Item 5">
                     </div>
                   </a>
                   <div class="groceries-details">
                     <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
+                    <a href="#"><h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2></a>
                   </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                  <a href="#" class="button btn  ">Add to Cart </a>
                 </div>
 
                 <div class="groceries-card">
+                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
                   <a style="text-decoration: none" href="#">
                     <div class="zoom-effect">
-                      <img src="{{ asset('assets/img/icon/carrots.png') }}" alt="Grocery Item 5">
+                      <img src="{{ asset('assets/img/groceries/hilsha.png') }}" alt="Grocery Item 5">
                     </div>
                   </a>
                   <div class="groceries-details">
                     <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
+                    <a href="#"><h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2></a>
                   </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
-                </div>
-                <div class="groceries-card">
-                  <a style="text-decoration: none" href="#">
-                    <div class="zoom-effect">
-                      <img src="{{ asset('assets/img/icon/bell-pepper.png') }}" alt="Grocery Item 5">
-                    </div>
-                  </a>
-                  <div class="groceries-details">
-                    <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                    <h2 class="groceries-title">Grocery Item 5</h2>
-                  </div>
-                  <a href="#" class="btn btn-primary">Add to Cart <i class="fa-solid fa-plus"></i></a>
+                  <a href="#" class="button btn  ">Add to Cart </a>
                 </div>
 
             </div>
@@ -183,172 +191,6 @@
 
 
 
-
-    <style>
-        .card {
-            top: 20px;
-            margin-bottom: 117px;
-            border: none;
-            border-radius: 10px;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-            transition: transform 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .card-ancor:hover {
-          text-decoration: none;
-        }
-
-        .card-img-top {
-            padding-top: 30px;
-            padding-bottom: 10px;
-            padding-left: 45px;
-            padding-right: 45px;
-            margin-bottom: 2;
-            object-fit: cover;
-        }
-
-        .card-body {
-            margin-top: 15px;
-            text-align: center;
-            padding:0;
-        }
-
-        .card-title {
-            padding-top: 10px;
-            font-weight: bold;
-            border-top: solid 2px #f3f3f3;
-            font-size: 16px;
-            color: black;
-            text-decoration: none;
-        }
-
-        .card-text {
-            color: #888;
-            margin-bottom: 20px;
-        }
-
-        .card-body .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-            transition: background-color 0.3s;
-        }
-
-        .card-body .btn-primary:hover {
-            background-color: #0056b3;
-            border-color: #0056b3;
-        }
-    </style>
-
-    <style>
-        /* Custom styles for the groceries section */
-        /* Custom styles for the groceries section */
-        /* Custom styles for the groceries section */
-        /* Custom styles for the groceries section */
-       /* Custom styles for the groceries section */
-.groceries-section {
-  padding: 50px 0;
-  background-color: #ffffff;
-}
-
-.container {
-  max-width: 1435px !important;
-  margin: 0 auto !important;
-}
-
-.title-wrapper {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.title-wrapper h2 {
-  font-size: 28px;
-  color: #333333;
-}
-
-.groceries-section .row {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  /* Display 5 cards in a row */
-  grid-gap: 20px;
-}
-
-.groceries-card {
-  background-color: #fff;
-  border-radius: 4px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  position: relative;
-}
-
-.groceries-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding: 55px;
-    object-fit: cover;
-  transform: scale(1);
-  transition: transform 0.3s ease;
-}
-
-.groceries-card img:hover {
-  transform: scale(1.1);
-}
-
-.groceries-details {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.groceries-title {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 5px;
-}
-
-.groceries-price {
-    font-size: 15px;
-    font-weight: 400;
-    color: #000000;
-    margin-bottom: 5px;
-}
-.groceries-price del {
-  font-size: 12px;
-  color:grey;
-}
-
-.groceries-card .btn {
-    display: inline-block;
-    background-color: #f0f0f0;
-    color: #474747;
-    padding: 5px 70px;
-    border-radius: 3px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    border: solid 1px #e9e9e9;
-    margin-bottom: 5px;
-    font-weight: 400;
-}
-
-.groceries-card .btn:hover {
-  bbackground-color: #a33030 !important;
-  border: solid 1px #e9e9e9;
-  margin-bottom: 5px;
-}
-.groceries-card a i {
-  font-size: 14px;
-}
-
-    </style>
 
 <style>
   .ad-section {

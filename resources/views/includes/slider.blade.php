@@ -12,14 +12,14 @@
     <div class="carousel-item active">
       <img src="{{asset('assets/img/banner/antique-banner-img.png')}}" alt="Los Angeles" width="1100" height="200">
       <div class="carousel-caption">
-        <h3>NexKraft Groceries</h3>
+        <h3>OK Groceries</h3>
         <p>Your E-commerce Solution is here</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="{{asset('assets/img/banner/antique-banner-img.png')}}" alt="Chicago" width="1100" height="500">
       <div class="carousel-caption">
-        <h3>NexKraft Groceries</h3>
+        <h3>Good Groceries</h3>
         <p>Your E-commerce Solution is here</p>
       </div>
     </div>
