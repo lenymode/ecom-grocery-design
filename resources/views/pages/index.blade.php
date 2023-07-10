@@ -297,73 +297,9 @@
         </div>
     </section>
 
-    <div class="container text-center my-3">
-      <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2>
-      <div class="row mx-auto my-auto">
-          <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-              <div class="carousel-inner w-100" role="listbox">
-                  <div class="carousel-item active">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="{{asset('assets/img/groceries/cabbage.png')}}">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="{{asset('assets/img/groceries/cabbage.png')}}">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="{{asset('assets/img/groceries/cabbage.png')}}">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="http://placehold.it/380?text=4">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="http://placehold.it/380?text=5">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="http://placehold.it/380?text=6">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-              </a>
-          </div>
-      </div>
-      <h5 class="mt-2">Advances one slide at a time</h5>
-  </div>
 
-  <script>
-    "$('#recipeCarousel').carousel({\n  interval: 10000\n})\n\n$('.carousel .carousel-item').each(function(){\n    var minPerSlide = 3;\n    var next = $(this).next();\n    if (!next.length) {\n    next = $(this).siblings(':first');\n    }\n    next.children(':first-child').clone().appendTo($(this));\n    \n    for (var i=0;i<minPerSlide;i++) {\n        next=next.next();\n        if (!next.length) {\n        \tnext = $(this).siblings(':first');\n      \t}\n        \n        next.children(':first-child').clone().appendTo($(this));\n      }\n});\n"
-  </script>
-  <style>
-    "@media (max-width: 768px) {\n    .carousel-inner .carousel-item > div {\n        display: none;\n    }\n    .carousel-inner .carousel-item > div:first-child {\n        display: block;\n    }\n}\n\n.carousel-inner .carousel-item.active,\n.carousel-inner .carousel-item-next,\n.carousel-inner .carousel-item-prev {\n    display: flex;\n}\n\n/* display 3 */\n@media (min-width: 768px) {\n    \n    .carousel-inner .carousel-item-right.active,\n    .carousel-inner .carousel-item-next {\n      transform: translateX(33.333%);\n    }\n    \n    .carousel-inner .carousel-item-left.active, \n    .carousel-inner .carousel-item-prev {\n      transform: translateX(-33.333%);\n    }\n}\n\n.carousel-inner .carousel-item-right,\n.carousel-inner .carousel-item-left{ \n  transform: translateX(0);\n}\n\n"
-  </style>
+
+
 
 
 
