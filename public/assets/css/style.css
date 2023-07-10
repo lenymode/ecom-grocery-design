@@ -1454,3 +1454,204 @@ select option {
 	border-radius: 4px;
   }
 
+
+  /* big-offer-section  */
+
+  .special-products .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.special-products .col-md-8,
+.special-products .col-md-4 {
+    float: left;
+    padding: 10px;
+}
+
+.special-products .col-md-8 {
+    width: 66.66%;
+}
+
+.special-products .col-md-4 {
+    width: 33.33%;
+}
+
+.special-products .product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.special-products .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.special-products .product-image {
+    flex-basis: 30%;
+    margin-right: 20px;
+}
+
+.special-products .product-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.special-products .product-details {
+    flex-basis: 70%;
+}
+
+.special-products .product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.special-products .product-price {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.special-products .product-del-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.special-products .add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04b39e;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: solid 1px #e9e9e9;
+    margin-top: 30px;
+    font-weight: 500;
+    height: 40px;
+    flex-grow: 1;
+    font-size: 15px;
+}
+
+.special-products .add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.special-products .offer-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    color: #888;
+    background-color: #f9f9f9;
+  }
+
+  .special-products .offer-cover img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Adjust the value as needed */
+  }
+
+  .special-products .offer-cover .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .special-products .offer-cover .original-price {
+
+    color: #888;
+
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  .special-products .offer-cover .product-title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .special-products .offer-cover .countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .special-products .offer-cover .countdown-item {
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  .special-products .offer-cover .countdown-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .special-products .offer-cover .countdown-label {
+    font-size: 14px;
+    color: #888;
+  }
+
+
+  @media (max-width: 768px) {
+    .special-products .offer-cover img {
+        max-width: 150px; /* Adjust the value as needed for smaller screens */
+      }
+
+      .special-products .offer-cover .price {
+        font-size: 18px;
+      }
+
+      .special-products .offer-cover .product-title {
+        font-size: 16px;
+      }
+
+      .special-products .offer-cover .countdown {
+        margin-top: 8px;
+      }
+
+      .special-products .offer-cover .countdown-value {
+        font-size: 20px;
+      }
+
+      .special-products .offer-cover .countdown-label {
+        font-size: 12px;
+      }
+  }
+
+
+@media (max-width: 768px) {
+
+    .special-products .col-md-8,
+    .special-products .col-md-4 {
+        width: 100%;
+    }
+
+    .special-products .product-card {
+        flex-direction: column;
+    }
+
+    .special-products .product-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+        flex-basis: auto;
+    }
+
+    .special-products .product-details {
+        flex-basis: auto;
+    }
+}

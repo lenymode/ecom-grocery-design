@@ -166,92 +166,86 @@
                     <a href="#" class="button btn  ">Add to Cart </a>
                 </div>
                 <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
 
-              <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
-
-
-              <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
-
-              <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
-
-              <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/hilsha.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
+                <div class="groceries-card">
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
 
 
+                <div class="groceries-card">
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
 
+                <div class="groceries-card">
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
+
+                <div class="groceries-card">
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/hilsha.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
             </div>
-
-
-
             <div class="view-all">
                 <a href="#">
                     <h2>View All</h2>
@@ -282,25 +276,130 @@
 
     {{-- offer-section  --}}
 
-    <section class="offer-section">
-        <div class="container">
-            <div class="col-md-12">
-                <div class="row grid">
-                    <div class="col-md-8">
-
+    <div class="container">
+        <div class="row special-products">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Product 1">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Product 1</h3>
+                                <p class="product-price">$29.99</p>
+                                <p class="product-del-price">$39.99</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Product 2">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Product 2</h3>
+                                <p class="product-price">$19.99</p>
+                                <p class="product-del-price">$24.99</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Product 3">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Product 3</h3>
+                                <p class="product-price">$14.99</p>
+                                <p class="product-del-price">$19.99</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Product 4">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Product 4</h3>
+                                <p class="product-price">$39.99</p>
+                                <p class="product-del-price">$49.99</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Product 5</h3>
+                                <p class="product-price">$24.99</p>
+                                <p class="product-del-price">$29.99</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Product 6">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Product 6</h3>
+                                <p class="product-price">$49.99</p>
+                                <p class="product-del-price">$59.99</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="offer-cover">
+                  <a href="#"><img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Offer Cover"></a>
+                  <div class="price">
+                    <span class="original-price">$59.99 <span style="font-size: 14px">$ <del>65.00</del></span></span>
+
+                  </div>
+                  <h3 class="product-title">Big Offer</h3>
+                  <div class="countdown">
+                    <div class="countdown-item">
+                      <span class="countdown-value">00</span>
+                      <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                      <span class="countdown-value">00</span>
+                      <span class="countdown-label">Hours</span>
+                    </div>
+                    <div class="countdown-item">
+                      <span class="countdown-value">00</span>
+                      <span class="countdown-label">Minutes</span>
+                    </div>
+                    <div class="countdown-item">
+                      <span class="countdown-value">00</span>
+                      <span class="countdown-label">Seconds</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
         </div>
-    </section>
+    </div>
 
+    <style>
 
-
-
-
+    </style>
 
 
 
