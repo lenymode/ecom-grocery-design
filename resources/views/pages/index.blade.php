@@ -261,12 +261,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="ad-banner">
-                        <img src="{{ asset('assets/img/ad/banner-8.webp') }}" alt="Ad Banner 1" class="img-fluid">
+                        <a href="#"><img src="{{ asset('assets/img/ad/banner-8.webp') }}" alt="Ad Banner 1"
+                                class="img-fluid"></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="ad-banner">
-                        <img src="{{ asset('assets/img/ad/banner-9.webp') }}" alt="Ad Banner 2" class="img-fluid">
+                        <a href="#"><img src="{{ asset('assets/img/ad/banner-9.webp') }}" alt="Ad Banner 2"
+                                class="img-fluid"></a>
                     </div>
                 </div>
             </div>
@@ -278,128 +280,217 @@
 
     <div class="container">
         <div class="row special-products">
+            <div class="col-md-12">
+                <h2 class="section-title">Special Products</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="row special-products">
             <div class="col-md-8">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="product-card">
                             <div class="product-image">
-                                <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Product 1">
+                                <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Product 5">
                             </div>
                             <div class="product-details">
-                                <h3 class="product-title">Product 1</h3>
-                                <p class="product-price">$29.99</p>
-                                <p class="product-del-price">$39.99</p>
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
                                 <a href="#" class="add-to-cart">Add to Cart</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Product 2">
-                            </div>
-                            <div class="product-details">
-                                <h3 class="product-title">Product 2</h3>
-                                <p class="product-price">$19.99</p>
-                                <p class="product-del-price">$24.99</p>
-                                <a href="#" class="add-to-cart">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Product 3">
-                            </div>
-                            <div class="product-details">
-                                <h3 class="product-title">Product 3</h3>
-                                <p class="product-price">$14.99</p>
-                                <p class="product-del-price">$19.99</p>
-                                <a href="#" class="add-to-cart">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="product-card">
-                            <div class="product-image">
-                                <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Product 4">
-                            </div>
-                            <div class="product-details">
-                                <h3 class="product-title">Product 4</h3>
-                                <p class="product-price">$39.99</p>
-                                <p class="product-del-price">$49.99</p>
-                                <a href="#" class="add-to-cart">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
+
                     <div class="col-md-6">
                         <div class="product-card">
                             <div class="product-image">
                                 <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Product 5">
                             </div>
                             <div class="product-details">
-                                <h3 class="product-title">Product 5</h3>
-                                <p class="product-price">$24.99</p>
-                                <p class="product-del-price">$29.99</p>
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
                                 <a href="#" class="add-to-cart">Add to Cart</a>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-6">
                         <div class="product-card">
                             <div class="product-image">
-                                <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Product 6">
+                                <img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Product 5">
                             </div>
                             <div class="product-details">
-                                <h3 class="product-title">Product 6</h3>
-                                <p class="product-price">$49.99</p>
-                                <p class="product-del-price">$59.99</p>
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
                                 <a href="#" class="add-to-cart">Add to Cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/hilsha.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/meat.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <button class="add-to-cart">
+                                    Add to Cart
+                                    <span class="plus-button">+</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
+
             <div class="col-md-4">
                 <div class="offer-cover">
-                  <a href="#"><img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Offer Cover"></a>
-                  <div class="price">
-                    <span class="original-price">$59.99 <span style="font-size: 14px">$ <del>65.00</del></span></span>
+                    <div class="offer-tag">Most Popular</div>
+                    <a href="#"><img src="{{ asset('assets/img/groceries/meat.png') }}" alt="Offer Cover"></a>
+                    <div class="price">
+                        <span class="original-price">$59.99 <span style="font-size: 14px"><span style="color:grey">$
+                                    <del>65.00</del></span></span></span>
+                    </div>
+                    <h3 class="product-title">Spicy Noodles</h3>
+                    <p>Lay's Kettle Cooked Ok Ok Potato Chips</p>
+                    <div class="countdown">
+                        <div class="countdown-item">
+                            <span class="countdown-value">00</span>
+                            <span class="countdown-label">DD</span>
+                        </div>
+                        <div class="separation">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value">02</span>
+                            <span class="countdown-label">HH</span>
+                        </div>
+                        <div class="separation">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value">40</span>
+                            <span class="countdown-label">MM</span>
+                        </div>
+                        <div class="separation">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value">20</span>
+                            <span class="countdown-label">SS</span>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
 
-                  </div>
-                  <h3 class="product-title">Big Offer</h3>
-                  <div class="countdown">
-                    <div class="countdown-item">
-                      <span class="countdown-value">00</span>
-                      <span class="countdown-label">Days</span>
-                    </div>
-                    <div class="countdown-item">
-                      <span class="countdown-value">00</span>
-                      <span class="countdown-label">Hours</span>
-                    </div>
-                    <div class="countdown-item">
-                      <span class="countdown-value">00</span>
-                      <span class="countdown-label">Minutes</span>
-                    </div>
-                    <div class="countdown-item">
-                      <span class="countdown-value">00</span>
-                      <span class="countdown-label">Seconds</span>
-                    </div>
-                  </div>
+                    <div class="sold-items"><span style="color: grey">
+                            <div class="dot1"></div>Sold:
+                        </span> 50 items</div>
+                    <div class="available-items"><span style="color:grey">
+                            <div class="dot2"></div>Available:
+                        </span> 21 items</div>
                 </div>
-              </div>
-
+            </div>
 
         </div>
     </div>
 
-    <style>
+    {{-- blog-section-starts-here  --}}
 
-    </style>
+    <div class="container">
+        <div class="blog-section">
+          <div class="text-center mb-4">
+            <h2>Blog Section</h2>
+            <p>Check out our latest blog posts.</p>
+          </div>
+          <div id="blogSlider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img src="{{asset('assets/img/blog/1.webp')}}" class="card-img-top" alt="Blog Image 1">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Blog Title 1</a></h5>
+                        <p class="card-text">Short description of Blog 1.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img src="{{asset('assets/img/blog/2.webp')}}" class="card-img-top" alt="Blog Image 2">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Blog Title 2</a></h5>
+                        <p class="card-text">Short description of Blog 2.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img src="{{asset('assets/img/blog/3.webp')}}" class="card-img-top" alt="Blog Image 3">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Blog Title 3</a></h5>
+                        <p class="card-text">Short description of Blog 3.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img src="{{asset('assets/img/blog/4.webp')}}" class="card-img-top" alt="Blog Image 4">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Blog Title 4</a></h5>
+                        <p class="card-text">Short description of Blog 4.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#blogSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#blogSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
 
 
 
