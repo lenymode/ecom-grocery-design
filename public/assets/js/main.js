@@ -119,3 +119,11 @@ $(document).ready(function () {
         menuActive = false;
     }
 });
+
+// blog - slider
+$(document).ready(function () {
+    // Enable auto sliding
+    $(".carousel").carousel({
+        interval: 3000, // Change slide interval as desired (in milliseconds)
+    });
+});

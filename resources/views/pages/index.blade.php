@@ -166,92 +166,86 @@
                     <a href="#" class="button btn  ">Add to Cart </a>
                 </div>
                 <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
 
-              <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
-
-
-              <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
-
-              <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
-
-              <div class="groceries-card">
-                  <div class="discount-label">ON SALE</div> <!-- Added discount label -->
-                  <a style="text-decoration: none" href="#">
-                      <div class="zoom-effect">
-                          <img src="{{ asset('assets/img/groceries/hilsha.png') }}" alt="Grocery Item 5">
-                      </div>
-                  </a>
-                  <div class="groceries-details">
-                      <span class="groceries-price">$9.99 <del>$12.99</del></span>
-                      <a href="#">
-                          <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
-                      </a>
-                  </div>
-                  <a href="#" class="button btn  ">Add to Cart </a>
-              </div>
+                <div class="groceries-card">
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
 
 
+                <div class="groceries-card">
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
 
+                <div class="groceries-card">
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
+
+                <div class="groceries-card">
+                    <div class="discount-label">ON SALE</div> <!-- Added discount label -->
+                    <a style="text-decoration: none" href="#">
+                        <div class="zoom-effect">
+                            <img src="{{ asset('assets/img/groceries/hilsha.png') }}" alt="Grocery Item 5">
+                        </div>
+                    </a>
+                    <div class="groceries-details">
+                        <span class="groceries-price">$9.99 <del>$12.99</del></span>
+                        <a href="#">
+                            <h2 class="groceries-title">Organic Firm Fresh White Lettuce</h2>
+                        </a>
+                    </div>
+                    <a href="#" class="button btn  ">Add to Cart </a>
+                </div>
             </div>
-
-
-
             <div class="view-all">
                 <a href="#">
                     <h2>View All</h2>
@@ -267,12 +261,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="ad-banner">
-                        <img src="{{ asset('assets/img/ad/banner-8.webp') }}" alt="Ad Banner 1" class="img-fluid">
+                        <a href="#"><img src="{{ asset('assets/img/ad/banner-8.webp') }}" alt="Ad Banner 1"
+                                class="img-fluid"></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="ad-banner">
-                        <img src="{{ asset('assets/img/ad/banner-9.webp') }}" alt="Ad Banner 2" class="img-fluid">
+                        <a href="#"><img src="{{ asset('assets/img/ad/banner-9.webp') }}" alt="Ad Banner 2"
+                                class="img-fluid"></a>
                     </div>
                 </div>
             </div>
@@ -282,88 +278,218 @@
 
     {{-- offer-section  --}}
 
-    <section class="offer-section">
-        <div class="container">
+    <div class="container">
+        <div class="row special-products">
             <div class="col-md-12">
-                <div class="row grid">
-                    <div class="col-md-8">
-
-                    </div>
-                    <div class="col-md-4">
-
-                    </div>
-                </div>
+                <h2 class="section-title">Special Products</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
-    </section>
+        <div class="row special-products">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/oil.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="container text-center my-3">
-      <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2>
-      <div class="row mx-auto my-auto">
-          <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-              <div class="carousel-inner w-100" role="listbox">
-                  <div class="carousel-item active">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="{{asset('assets/img/groceries/cabbage.png')}}">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="{{asset('assets/img/groceries/cabbage.png')}}">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="{{asset('assets/img/groceries/cabbage.png')}}">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="http://placehold.it/380?text=4">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="http://placehold.it/380?text=5">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <img class="img-fluid" src="http://placehold.it/380?text=6">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-              </a>
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/cabbage.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/ramen.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/chicken.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/hilsha.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <a href="#" class="add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="{{ asset('assets/img/groceries/meat.png') }}" alt="Product 5">
+                            </div>
+                            <div class="product-details">
+                                <span class="product-title">$24.99</span>
+                                <p class="product-price">Lorem, ipsum dolor.</p>
+                                <button class="add-to-cart">
+                                    Add to Cart
+                                    <span class="plus-button">+</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="offer-cover">
+                    <div class="offer-tag">Most Popular</div>
+                    <a href="#"><img src="{{ asset('assets/img/groceries/meat.png') }}" alt="Offer Cover"></a>
+                    <div class="price">
+                        <span class="original-price">$59.99 <span style="font-size: 14px"><span style="color:grey">$
+                                    <del>65.00</del></span></span></span>
+                    </div>
+                    <h3 class="product-title">Spicy Noodles</h3>
+                    <p>Lay's Kettle Cooked Ok Ok Potato Chips</p>
+                    <div class="countdown">
+                        <div class="countdown-item">
+                            <span class="countdown-value">00</span>
+                            <span class="countdown-label">DD</span>
+                        </div>
+                        <div class="separation">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value">02</span>
+                            <span class="countdown-label">HH</span>
+                        </div>
+                        <div class="separation">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value">40</span>
+                            <span class="countdown-label">MM</span>
+                        </div>
+                        <div class="separation">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-value">20</span>
+                            <span class="countdown-label">SS</span>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+
+                    <div class="sold-items"><span style="color: grey">
+                            <div class="dot1"></div>Sold:
+                        </span> 50 items</div>
+                    <div class="available-items"><span style="color:grey">
+                            <div class="dot2"></div>Available:
+                        </span> 21 items</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{-- blog-section-starts-here  --}}
+
+    <div class="container">
+        <div class="blog-section">
+          <div class="text-center mb-4">
+            <h2>Blog Section</h2>
+            <p>Check out our latest blog posts.</p>
           </div>
+          <div id="blogSlider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img src="{{asset('assets/img/blog/1.webp')}}" class="card-img-top" alt="Blog Image 1">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Blog Title 1</a></h5>
+                        <p class="card-text">Short description of Blog 1.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img src="{{asset('assets/img/blog/2.webp')}}" class="card-img-top" alt="Blog Image 2">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Blog Title 2</a></h5>
+                        <p class="card-text">Short description of Blog 2.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img src="{{asset('assets/img/blog/3.webp')}}" class="card-img-top" alt="Blog Image 3">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Blog Title 3</a></h5>
+                        <p class="card-text">Short description of Blog 3.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                      <img src="{{asset('assets/img/blog/4.webp')}}" class="card-img-top" alt="Blog Image 4">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Blog Title 4</a></h5>
+                        <p class="card-text">Short description of Blog 4.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#blogSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#blogSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
       </div>
-      <h5 class="mt-2">Advances one slide at a time</h5>
-  </div>
 
-  <script>
-    "$('#recipeCarousel').carousel({\n  interval: 10000\n})\n\n$('.carousel .carousel-item').each(function(){\n    var minPerSlide = 3;\n    var next = $(this).next();\n    if (!next.length) {\n    next = $(this).siblings(':first');\n    }\n    next.children(':first-child').clone().appendTo($(this));\n    \n    for (var i=0;i<minPerSlide;i++) {\n        next=next.next();\n        if (!next.length) {\n        \tnext = $(this).siblings(':first');\n      \t}\n        \n        next.children(':first-child').clone().appendTo($(this));\n      }\n});\n"
-  </script>
-  <style>
-    "@media (max-width: 768px) {\n    .carousel-inner .carousel-item > div {\n        display: none;\n    }\n    .carousel-inner .carousel-item > div:first-child {\n        display: block;\n    }\n}\n\n.carousel-inner .carousel-item.active,\n.carousel-inner .carousel-item-next,\n.carousel-inner .carousel-item-prev {\n    display: flex;\n}\n\n/* display 3 */\n@media (min-width: 768px) {\n    \n    .carousel-inner .carousel-item-right.active,\n    .carousel-inner .carousel-item-next {\n      transform: translateX(33.333%);\n    }\n    \n    .carousel-inner .carousel-item-left.active, \n    .carousel-inner .carousel-item-prev {\n      transform: translateX(-33.333%);\n    }\n}\n\n.carousel-inner .carousel-item-right,\n.carousel-inner .carousel-item-left{ \n  transform: translateX(0);\n}\n\n"
-  </style>
 
 
 
